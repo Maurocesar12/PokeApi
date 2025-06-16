@@ -1,29 +1,24 @@
-🧬 PokeApi Web - Pokédex Interativa
-Este projeto é uma aplicação web simples que consome dados da PokéAPI e exibe uma Pokédex interativa e estilizada. Ideal para fins educativos e demonstrar o uso de APIs públicas com HTML, CSS e JavaScript puro.
+# 🧬 PokeApi Web - Pokédex Interativa
 
-📸 Captura de Tela
-(Adicione aqui uma captura de tela da aplicação rodando)
+Este projeto é uma aplicação web simples que consome dados da [PokéAPI](https://pokeapi.co/) e exibe uma Pokédex interativa e estilizada. Ideal para fins educativos e demonstrar o uso de APIs públicas com HTML, CSS e JavaScript puro.
 
-🚀 Funcionalidades
-Listagem dos Pokémon com nome, número e imagem
+## 🚀 Funcionalidades
 
-Paginação dinâmica
+- Listagem dos Pokémon com nome, número e imagem
+- Paginação dinâmica
+- Estilo responsivo com layout moderno
+- Código organizado em módulos JS
 
-Estilo responsivo com layout moderno
+## 🧱 Tecnologias Utilizadas
 
-Código organizado em módulos JS
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- [PokéAPI](https://pokeapi.co/)
 
-🧱 Tecnologias Utilizadas
-HTML5
+## 📁 Estrutura de Pastas
 
-CSS3
-
-JavaScript (ES6+)
-
-PokéAPI
-
-📁 Estrutura de Pastas
-
+```
 PokeApi-main/
 ├── index.html
 ├── assets/
@@ -35,14 +30,28 @@ PokeApi-main/
 │       ├── main.js
 │       ├── poke-Api.js
 │       └── pokemon-model.js
-▶️ Como Rodar Localmente
-Clone este repositório:
+```
 
-bash
-Copiar
-Editar
+## ▶️ Como Rodar Localmente
+
+1. Clone este repositório:
+```bash
 git clone https://github.com/seu-usuario/PokeApi-main.git
+```
 
-Navegue até o diretório:
-
+2. Navegue até o diretório:
+```bash
 cd PokeApi-main
+```
+
+3. Abra o `index.html` em seu navegador.
+
+> ⚠️ Não é necessário servidor backend ou instalação de dependências.
+
+## 💡 Inspiração
+
+Este projeto foi inspirado no curso **JavaScript Developer** da [Digital Innovation One](https://web.dio.me/).
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
